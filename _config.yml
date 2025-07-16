@@ -24,17 +24,17 @@ nav:
   # 菜单
   menu:
     # 首页: / # name: link
-    # 文库: # name
-    #   全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
-    #   全部分类: /categories/ || fas fa-clone
-    #   全部标签: /tags/ || fas fa-tags
+    # 文章: # name
+    #   归档: /archives/ || fas fa-folder-closed # item name: link || icon
+    #   分类: /categories/ || fas fa-clone
+    #   标签: /tags/ || fas fa-tags
     # 友链:
     #   朋友圈: /moments/ || fas fa-wifi
     #   友情链接: /links/ || fas fa-user-group
     #   宝藏博主: javascript:travelling() || fas fa-gift
-    # 关于:
-    #   我的装备: /equipment/ || fas fa-laptop
-    #   在线工具: /tlink/ || fas fa-toolbox
+    # 我的:
+    #   关于: /about/ || fas fa-user
+    #   装备: /kit/ || fas fa-laptop
     #   音乐馆: /music/ || fas fa-music
 
   # Right button
@@ -895,7 +895,7 @@ envelope:
 
 # --------------------------- start ---------------------------
 # Brevity Page
-# 即可短文
+# 即刻短文
 brevity:
   enable: false
   home_mini: false
