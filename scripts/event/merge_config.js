@@ -30,7 +30,7 @@ hexo.extend.filter.register(
           sup: "Recommend",
           title: "AstraBay Docs",
           url: "https://blog.starsharbor.com/",
-          img: "/img/default.avif",
+          img: "/img/default.webp",
           color: "none",
         },
       },
@@ -41,7 +41,7 @@ hexo.extend.filter.register(
         card: {
           author: {
             img: "/img/logo.png",
-            sticker: "/img/happy-sticker.avif",
+            sticker: "/img/happy-sticker.webp",
           },
           url: "/about/",
           content1: "AstraBay",
@@ -82,11 +82,11 @@ hexo.extend.filter.register(
         tags: true,
         categories: true,
         archives: 0,
-        default: { cover: ["/img/default.avif"] },
+        default: { cover: ["/img/default.webp"] },
       },
       post: {
         default: {
-          cover: ["/img/default.avif"],
+          cover: ["/img/default.webp"],
           locate: "China, Changsha",
           copyright: {
             enable: true,
@@ -208,8 +208,8 @@ hexo.extend.filter.register(
       lazyload: {
         enable: false,
         field: "site",
-        placeholder: "/img/loading.avif",
-        errorimg: "/img/error_load.avif",
+        placeholder: "/img/loading.webp",
+        errorimg: "/img/error_load.webp",
       },
       loading: {
         fullpage: false,

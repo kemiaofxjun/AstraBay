@@ -87,8 +87,7 @@ hometop:
     sup: 置顶
     title: AstraBay 演示站
     url: https://blog.starsharbor.com/
-    img: /img/default.avif
-    color: "none"
+    img: /img/default.webp
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -559,7 +558,7 @@ footer:
 # 404 page
 # 404 页面
 errorpage:
-  img: /img/404.avif
+  img: /img/404.webp
   text: =awa= Page Not Found # Text
   recommendList: true
 # --------------------------- end ---------------------------
@@ -619,7 +618,7 @@ lazyload:
   # 加载时替换图
   placeholder: ""
   # 加载失败替换图
-  errorimg: /img/error_load.avif
+  errorimg: /img/error_load.webp
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
