@@ -204,9 +204,6 @@ const sco = {
     if ($music && $music.aplayer) { 
       this.isMusicBind = true;
       $music.onclick = () => this.musicPlaying && this.musicToggle(true);
-      $music.aplayer.on('loadeddata', () =>{
-        coverColor(true);
-      })
     }
   },
   musicToggle(isMeting = true) {

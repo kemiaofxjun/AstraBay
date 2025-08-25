@@ -10,7 +10,7 @@
   0%, 100%
     box-shadow: 0 0px 12px -3px var(--efu-none)
   50%
-    box-shadow: 0 0px 12px 0px var(--efu-music)
+    box-shadow: 0 0px 12px 0px var(--efu-main)
 
 @keyframes lightBar
   0%, 100%
@@ -34,12 +34,14 @@
   cursor: pointer
   transition: all 0.5s, left 0s
   transform-origin: left bottom
+  box-shadow: var(--efu-shadow-border)
   border-radius: 40px
   overflow: hidden
   .aplayer-button
     display none
 
   &.playing
+    border: var(--style-border)
     box-shadow: 0 0px 12px -3px var(--efu-none)
     animation: playingShadow 5s linear infinite
 
@@ -54,7 +56,7 @@
         color: var(--efu-white)
 
     .aplayer
-      background: var(--efu-music)
+      background: var(--efu-main)
       backdrop-filter: saturate(180%) blur(20px)
       transform: translateZ(0)
 
@@ -81,7 +83,7 @@
       width 180px
       right 0
       left auto
-      background linear-gradient(to left,var(--efu-music) 60%,transparent)
+      background linear-gradient(to left,var(--efu-main) 60%,transparent)
     &:hover
       #nav-music-hoverTips > i:not(#music-play)
         display: block
@@ -109,7 +111,7 @@
 
   #nav-music-hoverTips
     color: var(--efu-white)
-    background: var(--efu-music)
+    background: var(--efu-main)
     width: 100%
     height: 100%
     position: absolute
@@ -133,7 +135,7 @@
       cursor pointer
 
   .aplayer
-    background: var(--efu-music)
+    background: var(--efu-card-bg)
     border-radius: 60px
     height: 41px
     display: flex
