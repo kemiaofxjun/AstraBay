@@ -14,7 +14,7 @@ const coverColor = () => {
 }
 
 function handleApiColor(path) {
-    const cacheGroup = JSON.parse(localStorage.getItem('Solitude')) || {};
+    const cacheGroup = JSON.parse(localStorage.getItem('Astrabay')) || {};
     if (cacheGroup.postcolor?.[path]) {
         setThemeColors(cacheGroup.postcolor[path].value);
     } else {
