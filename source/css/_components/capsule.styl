@@ -1,10 +1,13 @@
 @keyframes changeright
-  0%, 50%, 100%
+  0%
     transform: rotate(0deg) scale(1.1)
     box-shadow: 0 0 2px #ffffff00
-  25%, 75%
-    transform: rotate(90deg) scale(1.1)
+  50%
+    transform: rotate(180deg) scale(1.1)
     box-shadow: 0 0 14px #ffffff
+  100%
+    transform: rotate(360deg) scale(1.1)
+    box-shadow: 0 0 2px #ffffff00
 
 @keyframes playingShadow
   0%, 100%
@@ -98,7 +101,7 @@
       transition: 0.3s
       transform: rotate(0deg) scale(1)
       border: var(--style-border-always)
-      animation: changeright 24s linear infinite
+      animation: changeright 10s linear infinite
       animation-play-state: paused
 
     .aplayer-info
