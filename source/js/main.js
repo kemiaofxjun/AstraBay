@@ -109,6 +109,11 @@ const percent = () => {
     .forEach((item) =>
       item.classList.toggle("hide", totalScrollableHeight - scrollPos < 100)
     );
+  document
+    .querySelectorAll(".capsuleHide")
+    .forEach((item) =>
+      item.classList.toggle("hide", totalScrollableHeight - scrollPos < 100)
+    );
 };
 
 const showTodayCard = () => {
