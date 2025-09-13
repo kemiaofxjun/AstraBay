@@ -260,16 +260,21 @@
 
 @media screen and (max-width: 768px)
   #nav-music
-    bottom: 10px
-    left: 10px
-  #nav-music .aplayer.aplayer-withlist .aplayer-info
-    min-width: 65px
-  #nav-music .aplayer .aplayer-info .aplayer-music
-    margin 0 auto
-  #nav-music .aplayer .aplayer-lrc,
-  #nav-music.stretch .aplayer.aplayer-withlrc .aplayer-lrc
-    display: none !important;
-    width: 0 !important;
-    opacity: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    bottom: 10px !important
+    left: 10px !important
+
+    .aplayer
+      &.aplayer-withlist .aplayer-info
+        min-width: 65px !important
+
+    .aplayer
+      .aplayer-info
+        .aplayer-music
+          margin 0 auto !important
+
+    &.stretch .aplayer.aplayer-withlrc .aplayer-lrc
+      display: none !important
+      width: 0 !important
+      opacity: 0 !important
+      padding: 0 !important
+      margin: 0 !important
